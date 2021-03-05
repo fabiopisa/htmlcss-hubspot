@@ -40,6 +40,9 @@ body{
 .al-right{
   text-align: right;
 }
+.border-r{
+  border-radius: 10px;
+}
 
 /* bottoni */
 .btn{
@@ -62,6 +65,10 @@ body{
 
 .btn-special{
   margin-left: 0px;
+}
+
+.btn-orange-large{
+  padding: 25px 40px;
 }
 /* / bottoni */
 
@@ -150,10 +157,6 @@ padding-top: 50px;
   margin-bottom: 60px;
 }
 
-.jumbotron .w-70 .w-50 .btn{
-  padding: 25px 40px;
-}
-
 .jumbotron .w-70 .w-50 .p-special{
 margin-top: 60px;
 }
@@ -161,5 +164,50 @@ margin-top: 60px;
 /* / sezione jumbotron */
 /* / intestazione header sito */
 
+/* corpo del sito */
+
+/* prima macrosezione */
+.first{
+  background-color:#F4F9FD ;
+  text-align: center;
+  color:#33475B
+}
+
+/* cube */
+.first .cube img{
+  width:20% ;
+  margin-top: 60px ;
+}
+
+.first .cube h3{
+ font-size: 250%;
+}
+
+.first .cube p{
+  line-height: 30px;
+  margin-top: 35px;
+  margin-bottom:60px ;
+}
+/* /cube */
+/* free-hub */
+.free-hub{
+  background-color: #FFFFFF;
+}
+
+.book img{
+  width: 50%;
+  
+}
+/* / free-hub */
+
+/* /prima macrosezione */
+/* seconda macrosezione */
+
+/* / seconda macrosezione */
+/* terza macrosezione */
+
+/* / terza macrosezione */
+
+/* / corpo del sito */
 
 
