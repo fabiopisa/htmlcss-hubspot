@@ -130,15 +130,35 @@ header{
 }
 /* sezione pulsanti header */
 
-/* sezione di presentazione */
+/* sezione jumbotron */
 .jumbotron{
   background-image: url(../img/jumbotron.png);
   height: 80vh;
   background-repeat: no-repeat;
-  background-size: 2000px;
-  background-position:100% 100% ;
+  background-size: 100%;
+  background-position: 100% 100%;
+  color:#33475B ;
 }
-/* / sezione di presentazione */
+
+.jumbotron .w-70 .w-50 h1{
+font-size: 320%;
+padding-top: 50px;
+}
+
+.jumbotron .w-70 .w-50 p{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.jumbotron .w-70 .w-50 .btn{
+  padding: 25px 40px;
+}
+
+.jumbotron .w-70 .w-50 .p-special{
+margin-top: 60px;
+}
+
+/* / sezione jumbotron */
 /* / intestazione header sito */
 
 
