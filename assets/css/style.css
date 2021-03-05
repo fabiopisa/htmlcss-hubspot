@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1200px;
+}
+
+.w-80{
+  width: 80%;
+  margin: auto;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.flo{
+  float: left;
+}
+
+/* sezione fixata in alto */
+.nav-fix{
+  background-color:#F4F9FD ;
+  height: 10vh;
+  border-bottom: 2px solid #808080;
+}
+
