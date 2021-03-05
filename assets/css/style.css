@@ -106,9 +106,7 @@ a{
 /* / sezione fixata in alto */
 
 /* intestazione header sito */
-
-
-/* / intestazione header sito */
+/* sezione pulsanti header */
 header{
   margin-top: 10vh;
 }
@@ -130,6 +128,18 @@ header{
   width:40%;
   vertical-align: middle;
 }
+/* sezione pulsanti header */
+
+/* sezione di presentazione */
+.jumbotron{
+  background-image: url(../img/jumbotron.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  background-position:100% 100% ;
+}
+/* / sezione di presentazione */
+/* / intestazione header sito */
 
 
 
