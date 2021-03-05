@@ -13,10 +13,11 @@
 body{
   font-family: 'Montserrat', sans-serif;
   min-width: 1200px;
+  font-weight: 500;
 }
 
-.w-80{
-  width: 80%;
+.w-70{
+  width: 70%;
   margin: auto;
 }
 
@@ -24,14 +25,111 @@ body{
   width: 50%;
 }
 
+.w-30{
+  width: 30%;
+}
+
 .flo{
   float: left;
 }
 
+.hei-10{
+  height: 10vh;
+}
+
+.al-right{
+  text-align: right;
+}
+
+/* bottoni */
+.btn{
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 10px;
+}
+
+.btn-log{
+  background-color: #FFFFFF;
+  border-color:#FE775A ;
+  color: #FE775A;
+}
+
+.btn-orange{
+  background-color: #FE775A;
+  color:#FFFFFF;
+  border: none;
+}
+
+.btn-special{
+  margin-left: 0px;
+}
+/* / bottoni */
+
 /* sezione fixata in alto */
 .nav-fix{
   background-color:#F4F9FD ;
-  height: 10vh;
   border-bottom: 2px solid #808080;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
+li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: #3E5465;
+  font-size: 120%;
+}
+
+.fas.fa-search{
+  color: #00A4BD;
+}
+
+.nav-contact,
+.nav-btn{
+ line-height: 10vh;
+}
+
+.nav-contact .fa-angle-down{
+  padding-left: 5px;
+  border-right: 1px solid;
+  padding-right: 27px;
+}
+
+/* / sezione fixata in alto */
+
+/* intestazione header sito */
+
+
+/* / intestazione header sito */
+header{
+  margin-top: 10vh;
+}
+
+.btn-header,
+.logo-header{
+  line-height: 10vh;
+}
+
+.btn-header .fa-angle-down{
+  padding-left: 15px;
+}
+
+.btn-header li{
+  margin-left: 40px;
+}
+
+.logo-header img{
+  width:40%;
+  vertical-align: middle;
+}
+
+
 
