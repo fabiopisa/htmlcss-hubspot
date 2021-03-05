@@ -196,7 +196,12 @@ margin-top: 60px;
 
 .book img{
   width: 50%;
-  
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.free-cmr{
+  text-align: left;
 }
 /* / free-hub */
 
