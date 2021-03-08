@@ -14,6 +14,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   min-width: 1200px;
   font-weight: 500;
+  color: #3E5465;
 }
 
 .w-70{
@@ -86,7 +87,6 @@ body{
 li{
   display: inline-block;
   list-style: none;
-  color: #3E5465;
   font-size: 110%;
 }
 
@@ -393,12 +393,72 @@ width: 38%;
 .plain .box-ulti{
   border-right: none;
 }
-
 /* / seconda macrosezione */
 /* terza macrosezione */
+.companies{
+ margin-top:80px;
+}
 
+.companies-logo img{
+  width: 15%;
+  vertical-align: middle;
+  margin-right: 5%;
+  padding-top: 3%;
+}
+
+.companies-logo{
+  text-align: right;
+}
+
+.companies .number-companies{
+  padding-left: 5%;
+}
+
+.companies .number-companies h3{
+  font-size: 400%;
+  margin-bottom: 40px;
+}
+
+.companies .number-companies ul li{
+  margin-top: 10px;
+}
+
+.start-gro{
+  margin-top: 80px;
+}
+
+.pick-gro{
+  text-align: right;
+}
+
+.pick-gro img{
+  width: 50%;
+}
+
+.text-gro h3{
+  font-size: 200%;
+  padding-right: 80px;
+  margin-bottom: 40px;
+}
+
+.text-gro p{
+  padding-right: 70px;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+
+.text-gro .free-p{
+  margin-top: 80px;
+  font-size: 85%;
+  padding-bottom: 20px;
+}
+
+.text-gro .free-p span{
+  text-transform: uppercase;
+}
 /* / terza macrosezione */
-
 /* / corpo del sito */
+
+/* footer del sito */
 
 
