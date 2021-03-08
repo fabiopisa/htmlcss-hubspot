@@ -339,6 +339,60 @@ width: 38%;
 /* / columns */
 /* /prima macrosezione */
 /* seconda macrosezione */
+.second{
+  background-image: linear-gradient(to  top right,#00A4BC, #00BCA5 ) ;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.plain .box-plain{
+  width: 25%;
+  padding-bottom: 30px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.plain h3{
+  padding-top: 40px;
+  margin-bottom: 30px;
+  font-size: 200%;
+}
+
+.plain p{
+  font-size: 98%;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.plain .box-plain h4{
+  font-size: 200%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.plain .box-plain h4::after{
+  content: "+" ;
+  font-size: 80%;
+  font-weight: 400;
+  vertical-align:middle ;
+}
+
+.plain .box-plain span{
+  font-size: 70%;
+  padding-bottom: 30px;
+}
+
+.plain .row-plain-second{
+  border-top:1px solid #FFFFFF;
+  padding-bottom: 100px;
+}
+
+.plain .row-plain-second img{
+  margin-top: 30px;
+}
+
+.plain .box-ulti{
+  border-right: none;
+}
 
 /* / seconda macrosezione */
 /* terza macrosezione */
