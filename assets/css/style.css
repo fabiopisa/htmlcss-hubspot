@@ -49,6 +49,11 @@ body{
   box-shadow: 1px 1px 10px rgba(0,0 , 0, 0.2);
 }
 
+li{
+  list-style: none;
+  font-size: 110%;
+}
+
 /* bottoni */
 .btn{
   border-radius: 5px;
@@ -84,10 +89,10 @@ body{
   right: 0;
 }
 
-li{
+.nav-fix li,
+header li,
+.free-hub li{
   display: inline-block;
-  list-style: none;
-  font-size: 110%;
 }
 
 .nav-fix li{
@@ -450,7 +455,7 @@ width: 38%;
 .text-gro .free-p{
   margin-top: 80px;
   font-size: 85%;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .text-gro .free-p span{
@@ -460,5 +465,68 @@ width: 38%;
 /* / corpo del sito */
 
 /* footer del sito */
+footer{
+  background-color: #32495B;
+  color:#C3CFDB;
+}
+
+.list-box{
+  width: 25%;
+}
+
+.list-box h4{
+  color: #FFFFFF;
+  padding-top: 40px;
+  margin-bottom:30px;
+}
+
+footer a{
+  color: #C3CFDB;
+  font-size: 90%;
+  line-height: 40px;
+}
+
+footer a:hover{
+  color:#FFFFFF
+}
+
+.list-box ul li i{
+  margin-right: 30px;
+}
+
+.list-box ul li .btn{
+  background-color: #DADEE0;
+  color: #32495B;
+  border: none;
+  line-height: 60px;
+}
+
+.list-box ul li .btn:hover{
+  color: #944949;
+}
+
+.foo-language{
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: 1px solid #C3CFDB;
+  margin-bottom: 40px;
+}
+
+.foo-language a{
+  margin-left: 35px;
+}
+
+.privacy-foo{
+  text-align: right;
+}
+
+.privacy-foo a{
+  margin-left: 20px;
+}
+
+.footer-logo{
+  padding-bottom: 30px;
+}
+/* / footer del sito */
 
 
